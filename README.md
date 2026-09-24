@@ -3,8 +3,14 @@
 Repositório de procedimentos operacionais reutilizáveis da QueroQuitar.
 
 Cada procedimento deve ficar em uma pasta própria na raiz do repositório.
-O primeiro procedimento registrado é `gmud/`, usado para cargas de GMUDs
-do Jira para o NocoDB.
+
+Procedimentos disponíveis:
+
+- `acredity-base-avulsa/`: filtra margem aprovada e formata CPFs da Acredity
+  para base avulsa do `campaign_engine`;
+- `gmud/`: carga de GMUDs do Jira para o NocoDB;
+- `noverde-base-avulsa/`: formatação de CSV da Noverde para base avulsa do
+  `campaign_engine`, incluindo e-mail e valor de crédito no JSON adicional.
 
 ## Estrutura Padrão
 
