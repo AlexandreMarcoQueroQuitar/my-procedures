@@ -10,7 +10,8 @@ Procedimentos disponíveis:
   para base avulsa do `campaign_engine`;
 - `gmud/`: carga de GMUDs do Jira para o NocoDB;
 - `noverde-base-avulsa/`: formatação de CSV da Noverde para base avulsa do
-  `campaign_engine`, incluindo e-mail e valor de crédito no JSON adicional.
+  `campaign_engine`, incluindo e-mail, valor de crédito e quantidade de
+  parcelas no JSON adicional.
 
 ## Estrutura Padrão
 
